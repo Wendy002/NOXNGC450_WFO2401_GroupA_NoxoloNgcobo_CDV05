@@ -1,6 +1,6 @@
 # Personal Portfolio 🙋‍♀️
 Link to website:
-🔗
+🔗https://dev-noxolo-portfolio.netlify.app/
 
 #### Description:
 A personal portfolio which contains the following sections: <br>
