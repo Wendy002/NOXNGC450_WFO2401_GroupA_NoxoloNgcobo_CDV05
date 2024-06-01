@@ -1,21 +1,14 @@
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
-  var menuBtn = document.getElementById("myNavMenu");
-
+  const menuBtn = document.getElementById("myNavMenu");
   if(menuBtn.className === "nav-menu"){
-    menuBtn.classList.add("responsive");
+    menuBtn.className += " responsive";
   } else {
-    menuBtn.classList.remove("responsive");
+    menuBtn.className = "nav-menu";
   }
 }
 
-// Close the side navbar where user click on the link
-const navLink = document.querySelectorAll("nav_menu_list");
- function linkAction(){
-    const navMenu = document.getElementById("myNavMenu");
-    navMenu.classList.remove("responsive");
- }
- navLink.forEach(n => n.addEventListener('click', linkAction));
+
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};

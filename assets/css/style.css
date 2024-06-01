@@ -225,6 +225,9 @@ nav{
     color: var(--first-color);
 }
 
+a{
+    text-decoration: none;  
+}
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
