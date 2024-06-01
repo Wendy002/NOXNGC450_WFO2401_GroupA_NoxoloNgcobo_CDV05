@@ -9,7 +9,8 @@ A personal portfolio which contains the following sections: <br>
 * Projects
 * Contacts 
 <br>
-- Download tyhe zip file and Run the index Html to view the portfolio on your local machine
+
+* Download tyhe zip file and Run the index Html to view the portfolio on your local machine
 
 Technologies used <br>
 * HTML
